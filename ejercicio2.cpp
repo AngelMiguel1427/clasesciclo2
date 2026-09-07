@@ -16,11 +16,10 @@ int main() {
     int cantidad= 5;
     adjust_price(precios, cantidad);
     cout << "Precios ajustados: ";
-    cout << precios[0] << ", " << precios[1] << ", " << precios[2] << ", " << precios[3] << ", " << precios[4] << endl;
-
-
-
-
+    for(int i=0; i < cantidad; i++){
+        cout << *(precios + i) << " ";
+    }
+    cout << endl;
 
     return 0;
 }
