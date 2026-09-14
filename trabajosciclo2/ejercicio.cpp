@@ -50,7 +50,7 @@ int buscarContacto(Contacto agenda[], int n, string nombre){
     //el for termino y jamas se eoncontro el contacto
     return -1;
 }
-void mostrarEncontrado(Contacto agenda[], int n){
+void mostrarEncontrado(Contacto agenda[], int n){}
     
 void mostrarMenu(){
     cout << "Menu de opciones:" << endl;
